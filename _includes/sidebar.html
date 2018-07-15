@@ -11,7 +11,7 @@
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}" target="_blank">Home</a>
-
+<!--
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
@@ -24,7 +24,8 @@
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
-      {% endfor %}
+      {% endfor %} -->
+      <a class="sidebar-nav-item" href="https://docs.google.com/forms/d/e/1FAIpQLScHloyKNN-F2vKot6pzaxoU0oWVoHXNtoJepTlTXAApBwcTbQ/viewform?usp=sf_link" target="_blank">Join us</a> 
       <a class="sidebar-nav-item" href="https://nurture.ai/ai-saturdays" target="_blank">AI Saturdays-Official</a> 
       <a class="sidebar-nav-item" href="https://nextech.io/" target="_blank">Next Tech Lab</a>
       <a class="sidebar-nav-item" href="https://nurture.ai/" target="_blank">nurture.ai</a>
