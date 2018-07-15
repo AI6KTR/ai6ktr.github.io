@@ -9,7 +9,7 @@ relative_permalinks: false
 # Setup
 title:            AI Saturdays @ KTR
 tagline:          'Making you kickass in AI'
-description:      'Making you kickass in AI'
+description:      'Empowering anyone to be kickass in AI'
 url:              https://ai6ktr.github.io/
 baseurl:          /
 
